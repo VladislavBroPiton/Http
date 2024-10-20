@@ -22,3 +22,13 @@ Host: example.com
 Метод POST предназначен для отправки данных на сервер (например, формы) и создания новых ресурсов.  
 
 **Пример**:  
+```
+POST /api/users HTTP/1.1
+Host: example.com
+Content-Type: application/json
+
+{
+  "name": "John",
+  "age": 30
+}
+```
