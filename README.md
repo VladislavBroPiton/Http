@@ -61,3 +61,6 @@ Content-Type: application/json
 DELETE /api/users/123 HTTP/1.1
 Host: example.com
 ```
+**Характеристики**:  
+Также идемпотентен.  
+Удаляет указанный ресурс.  
