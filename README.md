@@ -39,3 +39,13 @@ Content-Type: application/json
 **Описание**:  
 Метод PUT используется для обновления существующего ресурса или создания нового, если он не существует.  
 **Пример**:  
+```
+PUT /api/users/123 HTTP/1.1
+Host: example.com
+Content-Type: application/json
+
+{
+  "name": "John",
+  "age": 31
+}
+```
