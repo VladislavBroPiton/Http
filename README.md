@@ -57,3 +57,7 @@ Content-Type: application/json
 **Описание**:  
 Метод DELETE предназначен для удаления ресурсов с сервера.  
 **Пример**:  
+```
+DELETE /api/users/123 HTTP/1.1
+Host: example.com
+```
