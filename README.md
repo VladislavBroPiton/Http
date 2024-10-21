@@ -98,3 +98,7 @@ Host: example.com
 **Описание**:  
 Метод HEAD похож на GET, но возвращает только заголовки ответа без тела.  
 **Пример**:
+```
+HEAD /api/users/123 HTTP/1.1
+Host: example.com
+```
