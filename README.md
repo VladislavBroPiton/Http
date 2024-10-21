@@ -69,3 +69,12 @@ Host: example.com
 **Описание**:  
 Метод PATCH используется для частичного обновления ресурса.  
 **Пример**:  
+```
+PATCH /api/users/123 HTTP/1.1
+Host: example.com
+Content-Type: application/json
+
+{
+  "age": 32
+}
+```
