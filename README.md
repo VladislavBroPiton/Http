@@ -90,3 +90,6 @@ Content-Type: application/json
 OPTIONS /api/users HTTP/1.1
 Host: example.com
 ```
+**Характеристики**:  
+Ответ сервера может содержать заголовки, определяющие допустимые методы.  
+Полезен для реализации CORS (Cross-Origin Resource Sharing).  
